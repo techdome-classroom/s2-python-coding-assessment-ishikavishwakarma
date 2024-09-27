@@ -11,7 +11,7 @@ class Solution(object):
                 top_elem = arr.pop() if arr else '#'
                 if mapping[char] != top_elem: 
                     return False
-                else:
+            else:
                     arr.append(char)
                     
         return not arr
