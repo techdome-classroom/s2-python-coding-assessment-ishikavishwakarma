@@ -16,8 +16,8 @@ class Solution(object):
                     
         return not arr
       
-sol=Solution()      
-print(sol.isValid("("))
+# sol=Solution()      
+# print(sol.isValid("("))
 
 
 
